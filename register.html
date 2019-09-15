@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Shanti | Registrate</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/vegas.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link rel="stylesheet" href="css/styles.css">
+	</head>
+	<body>
+		<div class="container">
+			<header class="main-header"> <!-- Encabezado -->
+				<img src="img/logo.png" class="logo" alt="logotipo">
+				<nav class="navbar navbar-dark">
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+						Menú
+						<span class="navbar-toggler-icon"></span>
+					</button>
+				</nav>
+				<div class="collapse" id="navbarToggleExternalContent">
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Productos</a></li>
+						<li><a href="#">Registro</a></li>
+						<li><a href="#">Login</a></li>
+						<li><a href="#">Contacto</a></li>
+					</ul>
+				</div>
+			</header>
+			<main> <!-- Cuerpo principal del sitio -->
+				<section class="form-container">
+					<h2>Registrate</h2>
+						<form class="access-form" action="" method="get"> <!--Abre formulario -->
+				      <!-- input Nombre -->
+							<div class="field-group">
+								<h5>Nombre<label for="nombre"></label></h5>
+								<input type="text" id="nombre" name="nombre" placeholder="Ingresá tu nombre" required style="font-family: segoe script;">
+					    	<p class="form-text alert-hide">
+									Obligatorio.
+								</p>
+							</div>
+				      <div class="field-group">
+				      	<h5>Email<label for="email"></label></h5>
+								<input type="email" id="email" name="email" placeholder="Ingresá tu e-mail" required style="font-family: segoe script;">
+	 							<p class="form-text alert-hide">
+									Obligatorio.
+								</p>
+				      </div>
+							<div class="field-group">
+								<h5>Contraseña<label for="password"style="font-family: segoe script;"></label></h5>
+								<input type="password" id="passsword" name="password" placeholder="password" value="" required>
+								<p class="form-text alert-hide">
+									Obligatorio.
+								</p>
+							</div>
+
+							<h5 for="pais">País de nacimiento</h5>
+							<select name="pais" required="">
+								<option value="">Por favor, elija una opción</option>
+								<option value="ar">Argentina</option>
+								<option value="cl">Chile</option>
+								<option value="uru">Uruguay</option>
+								<option value="br">Brasil</option>
+								<option value="ecu">Ecuador</option>
+								<option value="par">Paraguay</option>
+								<option value="bol">Bolivia</option>
+							</select>
+							<p class="form-text alert-hide">
+								Obligatorio.
+							</p>
+
+							<br>
+							<br>
+
+							<h5>Género</h5>
+						   <input type="radio" id="masc" name="genero" value="m">
+				     	 <label for="masc">Masculino</label>
+
+							 <input type="radio" id="fem" name="genero" value="f">
+				     	 <label for="fem">Femenino</label>
+							<br>
+				     	 <input type="radio" id="ns-nc" name="genero" value="ns-nc">
+				     	 <label for="ns-nc">Prefiero no decirlo</label>
+
+							<br>
+							<br>
+
+							<div class="field-group">
+					      <h5 for="comentarios">Dejános tus comentarios</h5>
+					      <textarea name="name" id="comentarios" rows="8" cols="40"></textarea>
+							</div>
+
+							<input type="checkbox" id="tyc" name="tyc" value="yes" required>
+				      <label for="tyc">Acepto los términos y condiciones.</label>
+
+				      <!-- <p>Botones enviar con etiquetas 'button'<p> -->
+				      <button type="submit"><strong>Registrarme</strong></button>
+				      <button type="reset"><img src="" alt=""><strong>Cancelar</strong></button>
+
+				    </form>
+				</section>
+			</main>
+		</div>
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+		<script src="js/vegas.min.js"></script>
+		<script src="responsiveslides.min.js"></script>
+		<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	</body>
+</html>
