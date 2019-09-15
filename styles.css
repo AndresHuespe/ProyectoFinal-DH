@@ -249,4 +249,37 @@ div.Redes{
 
 .cascada{
   padding-left: 15px;
+  color: white;
+}
+
+ul.products{
+  padding-left: 15px;
+  padding-right: 15px;
+  color: white;
+}
+
+span{
+  color: white;
+  /* display: block; */
+  text-align: center;
+}
+
+div.categories{
+  display: block;
+  /* text-align: center; */
+  padding-left: 25px;
+  background-size: contain;
+  background-image: url(../img/background.jpg);
+  background-repeat: repeat-y;
+}
+
+ul.product-categories{
+  color: white;
+  background-color: #dc3545;
+  opacity: 0.5;
+}
+.title{
+  font-family: segoe script;
+  color: white;
+  font-size: 20px;
 }
