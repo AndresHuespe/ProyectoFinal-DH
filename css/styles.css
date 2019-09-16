@@ -1,0 +1,285 @@
+/*For mobile phones*/
+* {
+  margin: 0 auto;
+  /* background-image: url(../img/fondo.jpg); */
+}
+
+.container{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+body{
+  background-size: contain;
+  background-image: url(../img/background.jpg);
+  background-repeat: repeat-y;
+}
+
+img.logo{
+  display: block;
+  width: 70%;
+}
+
+div.collapse ul li{
+  display: block;
+  width: 25%;
+  padding-left: 0px;
+  padding-top: 8px;
+  margin: 0px;
+  padding-bottom: 0px;
+}
+
+div.collapse ul li a{
+  color: white;
+}
+
+div.collapse ul{
+  text-decoration: none;
+  margin-bottom: 0px;
+  background-color: #dc3545;
+  position: relative;
+  bottom: 50px;
+  font-family: segoe script;
+  opacity: 0.5;
+}
+
+div.collapse{
+  /* display: block; */
+  background-color: #dc3545;
+  /* opacity: 0.5; */
+}
+
+button.navbar-toggler{
+  background-color: #dc3545;
+  opacity: 0.5;
+  font-size: 1rem;
+  position: relative;
+  bottom: 40px;
+  font-family: segoe script;
+  margin-top: 15px;
+  /* color: white; */
+}
+
+p{
+  padding-left: 15px;
+  padding-right: 15px;
+  color: white;
+  text-align: justify;
+  font-family: segoe script;
+  margin-bottom: 0px;
+  font-size: 10px;
+}
+
+div.col-md-7.col-sm-7.col-xs-12{
+  padding-left: 0px;
+  padding-right: 0px;
+  background-color: #dc3545;
+}
+
+h1{
+  display: block;
+  text-align: center;
+  font-family: segoe script;
+  color: white;
+}
+
+h2{
+  display: block;
+  text-align: center;
+  padding-top: 10px;
+  color: white;
+  font-family: segoe script;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 0px;
+  /* font-weight: bold; */
+}
+
+h3{
+  display: block;
+  text-align: left;
+  font-family: segoe script;
+  color: white;
+}
+
+h5{
+  display: block;
+  text-align: left;
+  color: white;
+  font-family: segoe script;
+}
+
+h6{
+  display: block;
+  color: white;
+  text-align: center;
+  font-family: segoe script;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 0px;
+  /* font-weight: bold; */
+  font-size: 25px;
+  padding-bottom: 15px;
+  font-family: segoe script;
+}
+
+/* footer{
+  background-image: url(../img/background.jpg);
+  background-size: contain;
+  background-repeat: repeat-y;
+  padding-top: 5px;
+} */
+
+img.facebook{
+  display: block;
+  width: 30%;
+  text-align: center;
+}
+
+img.gmail{
+  display: block;
+  width: 30%;
+  text-align: center;
+}
+
+label{
+  color: white;
+  font-family: segoe script;
+}
+
+
+/* Formularios*/
+
+.form-container {
+	max-width: 350px;
+	margin: 0 auto;
+  background-color: background-color: #dc3545;
+}
+
+.form-container h1 {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.field-group {
+	margin-bottom: 20px;
+}
+
+.access-form {
+	overflow: hidden;
+}
+
+.access-form label {
+	font-size: 16px;
+	margin-bottom: 5px;
+	display: inline-block;
+  padding-bottom: 10px;
+}
+
+.field-group input {
+	width: 100%;
+  border: 1px solid #ccc;
+  padding: 8px 38px 8px 8px;
+}
+
+.remember-me {
+	text-align: left;
+}
+
+.remember-me input {
+	width: auto;
+}
+
+.alert-hide {
+	color: black;
+	font-size: 14px;
+	margin-top: 5px;
+}
+
+.access-form button {
+	font-size: 16px;
+  background-color: white;
+  border: 1px solid white;
+  color: #dc3545;
+  text-transform: capitalize;
+  width: 40%;
+  padding: 8px 14px;
+  border-radius: 10px;
+	cursor: pointer;
+}
+
+main{
+  background-color: #dc3545;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+select{
+  font-family: segoe script;
+}
+
+/* QA*/
+
+a{
+  background-color: #dc3545;
+  font-family: segoe script;
+  color: white;
+  text-decoration: none;
+  opacity: 0.5;
+}
+
+div.ColumnaTextoFaq{
+  background-color: #dc3545;
+  /* opacity: 0.5; */
+}
+
+div.ColumnaTextoFaq ul li{
+  font-family: segoe script;
+  color: white;
+  font-size: 10px;
+}
+
+div.Redes{
+  position: absolute;
+  left: 85%;
+  top: 20px;
+}
+
+/*Catálogo*/
+
+.cascada{
+  padding-left: 15px;
+  color: white;
+}
+
+ul.products{
+  padding-left: 15px;
+  padding-right: 15px;
+  color: white;
+}
+
+span{
+  color: white;
+  /* display: block; */
+  text-align: center;
+}
+
+div.categories{
+  display: block;
+  /* text-align: center; */
+  padding-left: 25px;
+  background-size: contain;
+  background-image: url(../img/background.jpg);
+  background-repeat: repeat-y;
+}
+
+ul.product-categories{
+  color: white;
+  background-color: #dc3545;
+  opacity: 0.5;
+}
+.title{
+  font-family: segoe script;
+  color: white;
+  font-size: 20px;
+}

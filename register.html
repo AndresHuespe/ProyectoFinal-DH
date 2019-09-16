@@ -10,12 +10,12 @@
 		<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-		<link rel="stylesheet" href="css/styles.css">
+		<link rel="stylesheet" href="css/styles-login.css">
 	</head>
 	<body>
 		<div class="container">
 			<header class="main-header"> <!-- Encabezado -->
-				<img src="img/logo.png" class="logo" alt="logotipo">
+				<img src="img/logo.png" class="logo-reg" alt="logotipo">
 				<nav class="navbar navbar-dark">
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
 						Menú
@@ -34,8 +34,9 @@
 			</header>
 			<main> <!-- Cuerpo principal del sitio -->
 				<section class="form-container">
-					<h2>Registrate</h2>
 						<form class="access-form" action="" method="get"> <!--Abre formulario -->
+							<h2 class="registrate">Registrate</h2>
+							<h3 class="reg-info">Completa con tus datos para registrarte en la pagina</h3>
 				      <!-- input Nombre -->
 							<div class="field-group">
 								<h5>Nombre<label for="nombre"></label></h5>
@@ -73,10 +74,6 @@
 							<p class="form-text alert-hide">
 								Obligatorio.
 							</p>
-
-							<br>
-							<br>
-
 							<h5>Género</h5>
 						   <input type="radio" id="masc" name="genero" value="m">
 				     	 <label for="masc">Masculino</label>
@@ -99,11 +96,9 @@
 				      <label for="tyc">Acepto los términos y condiciones.</label>
 
 				      <!-- <p>Botones enviar con etiquetas 'button'<p> -->
-				      <button type="submit"><strong>Registrarme</strong></button>
-				      <button type="reset"><img src="" alt=""><strong>Cancelar</strong></button>
+				      <button id="boton" class="btn btn-info" type="submit"><strong>Registrarme</strong></button>
+				      <button id="boton" class="btn btn-outline-dark" type="reset"><img src="" alt=""><strong>Cancelar</strong></button>
 
-							<br>
-							<br>
 				    </form>
 				</section>
 			</main>

@@ -11,14 +11,14 @@
 
 body{
   background-size: contain;
-  background-image: url(../img/background.jpg);
-  background-repeat: repeat-y;
+  background-attachment: fixed;
 }
 
 img.logo{
   display: block;
   width: 70%;
 }
+
 
 div.collapse ul li{
   display: block;
@@ -124,7 +124,6 @@ h6{
 }
 
 /* footer{
-  background-image: url(../img/background.jpg);
   background-size: contain;
   background-repeat: repeat-y;
   padding-top: 5px;
@@ -153,7 +152,7 @@ label{
 .form-container {
 	max-width: 350px;
 	margin: 0 auto;
-  background-color: background-color: #dc3545;
+  background-color: #dc3545;
 }
 
 .form-container h1 {
@@ -269,7 +268,6 @@ div.categories{
   /* text-align: center; */
   padding-left: 25px;
   background-size: contain;
-  background-image: url(../img/background.jpg);
   background-repeat: repeat-y;
 }
 
