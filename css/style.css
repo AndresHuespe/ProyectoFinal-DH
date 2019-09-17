@@ -276,6 +276,7 @@ header.is-fixed {
 }
 
 #cd-lateral-nav {
+  text-decoration: none;
   position: fixed;
   height: 100%;
   right: 0;
@@ -301,18 +302,22 @@ header.is-fixed {
 }
 #cd-lateral-nav .cd-navigation {
   margin: 10px 0 16px;
+  text-decoration: none;
 }
 #cd-lateral-nav .sub-menu {
+  text-decoration: none;
   padding: 0 10px 20px 15px;
   display: none;
 }
 #cd-lateral-nav a {
+  text-decoration: none;
   display: block;
   line-height: 2em;
   padding: 0 16px 0 32px;
   color: white;
 }
 #cd-lateral-nav a.current {
+  text-decoration: none;
   background-color: #F3B27C;
   color: #FFF;
 }
@@ -336,16 +341,19 @@ header.is-fixed {
   transition: transform .4s 0s, visibility 0s 0s;
   /* smooth the scrolling on touch devices - webkit browsers */
   -webkit-overflow-scrolling: touch;
+  text-decoration: none;
 }
 
 /* style menu items which have a submenu  */
 #cd-lateral-nav .item-has-children > a {
+  text-decoration: none;
   position: relative;
   text-transform: uppercase;
   font-weight: 600;
   /* this is the right arrow to show that the item has a submenu  */
 }
 #cd-lateral-nav .item-has-children > a::after {
+  text-decoration: none;
   content: '';
   display: block;
   height: 11px;
