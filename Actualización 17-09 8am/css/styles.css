@@ -1,0 +1,427 @@
+/*For mobile phones*/
+* {
+  margin: 0 auto;
+  padding: 0px;
+  box-sizing: border-box;
+  /* background-image: url(../img/fondo.jpg); */
+}
+
+.container{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+body{
+  background-size: contain;
+  background-image: url(../img/background.jpg);
+  background-repeat: repeat-y;
+  font-family: 'Vibur', cursive;
+  font-family: 'Abel', sans-serif;
+  /* font-family: segoe script; */
+}
+
+img.logo{
+  display: block;
+  width: 70%;
+}
+
+/* .main-header {
+  float: left;
+  width: 14%;
+} */
+
+div.collapse ul li{
+  display: block;
+  width: 25%;
+  padding-left: 0px;
+  padding-top: 8px;
+  margin: 0px;
+  padding-bottom: 0px;
+}
+
+div.collapse ul li a{
+  color: white;
+}
+
+div.collapse ul{
+  text-decoration: none;
+  margin-bottom: 0px;
+  background-color: #e85c6a;
+  position: relative;
+  bottom: 50px;
+  font-family: segoe script;
+  padding-left: 40px;
+}
+
+div.collapse{
+  /* display: block; */
+  background-color: #e85c6a;
+}
+
+button.navbar-toggler{
+  background-color: #e85c6a;
+  font-size: 1rem;
+  position: relative;
+  bottom: 40px;
+  font-family: segoe script;
+  margin-top: 15px;
+}
+
+main{
+  background-color: #e85c6a;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+p{
+  color: white;
+  text-align: justify;
+  font-family: segoe script;
+  margin-bottom: 0px;
+  font-size: 10px;
+}
+
+div.introd{
+  padding-left: 5px;
+  padding-right: 5px;
+  background-image: linear-gradient(-225deg, #f995448a 50%, #274d88bf 50%);
+}
+
+div.col-md-7.col-sm-7.col-xs-12{
+  padding-left: 5px;
+  padding-right: 5px;
+  background-color: #e85c6a;
+  /* background-image: linear-gradient(-225deg, #f995448a 50%, #274d88bf 50%); */
+}
+
+/* div.col-md-5.col-sm-12.col-xs-12{
+  padding-left: 15px;
+  padding-right: 15px;
+  background-image: linear-gradient(-225deg, #f995448a 50%, #274d88bf 50%);
+} */
+
+h1{
+  display: block;
+  text-align: center;
+  font-family: segoe script;
+  color: white;
+}
+
+h2{
+  display: block;
+  text-align: center;
+  padding-top: 10px;
+  color: white;
+  font-family: segoe script;
+  margin-bottom: 0px;
+}
+
+h3{
+  display: block;
+  text-align: left;
+  font-family: segoe script;
+  color: white;
+}
+
+h4{
+  display: block;
+  text-align: center;
+  font-size: 20px;
+  padding-top: 10px;
+  color: white;
+  font-family: segoe script;
+  margin-bottom: 0px;
+}
+
+h5{
+  display: block;
+  text-align: left;
+  color: white;
+  font-family: segoe script;
+}
+
+h6{
+  display: block;
+  color: white;
+  text-align: center;
+  font-family: segoe script;
+  margin-bottom: 0px;
+  font-size: 25px;
+  padding-bottom: 15px;
+  font-family: segoe script;
+}
+
+footer{
+  background-color: #e85c6a;
+}
+
+img.facebook{
+  display: block;
+  width: 30%;
+  text-align: center;
+}
+
+img.gmail{
+  display: block;
+  width: 30%;
+  text-align: center;
+}
+
+label{
+  color: white;
+  font-family: segoe script;
+}
+
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+}
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+}
+
+
+/* Formularios*/
+
+.registrate {
+  text-align: center;
+  font-family: 'segoe script';
+}
+
+.reg-info {
+  padding-top: 10px;
+  text-align: center;
+  font-size: 16px;
+}
+
+form {
+    /* width: 450px; */
+    /* min-height: 500px; */
+    height: auto;
+    border-radius: 5px;
+    margin: 2% auto;
+    box-shadow: 0 9px 50px hsla(20, 67%, 75%, 0.31);
+    padding: 2%;
+    background-image: linear-gradient(-225deg, #f995448a 50%, #274d88bf 50%);
+}
+
+.form-container {
+	/* max-width: 350px; */
+	margin: 0 auto;
+  background-color: background-color: #e85c6a;
+}
+
+.form-container h1 {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.field-group {
+	margin-bottom: 20px;
+}
+
+.access-form {
+	overflow: hidden;
+}
+
+.access-form label {
+	font-size: 16px;
+	margin-bottom: 5px;
+	display: inline-block;
+  padding-bottom: 10px;
+}
+
+.field-group input {
+	width: 90%;
+  border: 2px solid white;
+  padding: 8px 38px 8px 8px;
+}
+
+.remember-me {
+	text-align: left;
+}
+
+.remember-me input {
+	width: auto;
+}
+
+.alert-hide {
+	color: black;
+	font-size: 14px;
+	margin-top: 5px;
+}
+
+.access-form button {
+	font-size: 16px;
+  background-color: #e85c6a;;
+  border: 1px solid white;
+  color: white;
+  text-transform: capitalize;
+  width: 49%;
+  padding: 8px 14px;
+  border-radius: 10px;
+	cursor: pointer;
+}
+
+select{
+  font-family: segoe script;
+}
+
+.input-item {
+    padding: 14.5px 0px 15px 9px;
+    border-radius: 5px 0px 0px 5px;
+}
+
+#eye {
+    margin: 5.9px 0 0 0;
+    margin-left: -20px;
+    padding: 15px 9px 19px 0px;
+    border-radius: 0px 5px 5px 0px;
+    float: right;
+    position: relative;
+    right: 1%;
+    top: -.2%;
+    z-index: 5;
+    cursor: pointer;
+}
+
+input[class="form-input"]{
+    width: 250px;
+    height: 50px;
+    margin-top: 2%;
+    padding: 15px;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+    transition: 0.2s linear;
+}
+
+input[id="txt-input"] {
+  width: 250px;
+}
+
+input:focus {
+    transform: translateX(-2px);
+    border-radius: 5px;
+}
+
+button {
+    display: inline-block;
+    /* width: 280px; */
+    height: 50px;
+
+    padding: 0 20px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.2s linear;
+    letter-spacing: 0.05em;
+}
+
+
+/* QA*/
+
+a{
+  background-color: #e85c6a;
+  font-family: segoe script;
+  color: white;
+  text-decoration: none;
+}
+
+a.button.product{
+  position: absolute;
+  left: 195px;
+}
+
+div.ColumnaTextoFaq{
+  padding-left: 15px;
+  padding-right: 15px;
+  background-image: linear-gradient(-225deg, #f995448a 50%, #274d88bf 50%);
+  /* background-color: #e85c6a; */
+}
+
+div.ColumnaTextoFaq ul li{
+  font-family: segoe script;
+  color: white;
+  font-size: 10px;
+}
+
+div.Redes{
+  position: absolute;
+  left: 85%;
+  top: 20px;
+}
+
+/*Catálogo*/
+
+.cascada{
+  padding-left: 15px;
+  color: white;
+  font-family: segoe script;
+}
+
+ul.products{
+  padding-left: 15px;
+  padding-right: 15px;
+  color: white;
+}
+
+span{
+  color: white;
+  /* display: block; */
+  text-align: center;
+}
+
+/* div.categories{
+  display: block; */
+  /* text-align: center; */
+  /* padding-left: 25px; */
+  /* background-size: contain;
+  background-image: url(../img/background.jpg);
+  background-repeat: repeat-y; */
+  /* background-color: #e85c6a; */
+  /* background-image: linear-gradient(-225deg, #f995448a 50%, #274d88bf 50%); */
+/* }
+
+ul.product-categories{
+  color: white;
+  background-color: #e85c6a;
+  opacity: 0.5;
+} */
+
+.title{
+  font-family: segoe script;
+  color: white;
+  font-size: 20px;
+}
+
+div.storefront{
+  background-image: linear-gradient(-225deg, #f995448a 50%, #274d88bf 50%);
+}
