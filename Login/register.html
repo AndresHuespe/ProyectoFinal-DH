@@ -23,10 +23,10 @@
 		</nav>
 		<a id="cd-menu-trigger" href="#0"><span class="cd-menu-text">Menu</span><span class="cd-menu-icon"></span></a>
 	</header>
-	
+
     <main class="cd-main-content"> <!-- Cuerpo principal del sitio -->
       <section class="form-container">
-          <form class="access-form" action="" method="get"> <!--Abre formulario -->
+          <form class="access-form" action="" method="post" enctype="multipart/form-data"> <!--Abre formulario -->
             <h2 class="registrate">Registrate</h2>
             <h3 class="reg-info">Completa con tus datos para registrarte en la pagina</h3>
             <!-- input Nombre -->
@@ -78,11 +78,14 @@
 
             <br>
             <br>
+						<h5>Foto de Perfil<label for="fotoPerfil"style="font-family: segoe script;"></label></h5>
+						<input type=file  name="fotoPerfil"  value="Enviar" required>
 
             <div class="field-group">
               <h5 for="comentarios">Dejános tus comentarios</h5>
               <textarea name="name" id="comentarios" rows="8" cols="40"></textarea>
             </div>
+
 
             <input type="checkbox" id="tyc" name="tyc" value="yes" required>
             <label for="tyc">Acepto los términos y condiciones.</label>
