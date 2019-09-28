@@ -1,4 +1,25 @@
+<?php
 
+if ($_FILES) {
+	if($_FILES["fotoPerfil"]["error"] !=0){
+echo "Hubo un error al cargar la foto";
+
+} else{
+	$ext = pathinfo($_FILES["fotoPerfil"]["name"], PATHINFO_EXTENSION);
+
+if ($ext != "jpg" && $ext != "jpeg" && $ext != "png"){
+	echo "La foto debe ser una imágen";
+}
+
+
+}
+
+}
+
+
+
+
+?>
 
 
 <!doctype html>
