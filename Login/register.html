@@ -1,5 +1,55 @@
+<?php
+
+$mensajeError= "";
+
+if ($_POST) {
+
+  $password= password_hash($_POST["password"], PASSWORD_DEFAULT);
+
+  $archivo="usuarios.json";
+  $contenidoArchivo= file_get_contents($archivo);
+
+   //convertilo en array
+   $datos=json_decode($contenidoArchivo, true);
+
+   if(!$datos){
+     $datos=[];
+   }
+
+   $retorno=null;
+
+   foreach ($datos as $user) {
+     // Por cada usuario preguntar
+     if($user["email"]==$_POST["email"]){
+       //Si la condicion da verdadera retornar usuario
+       $retorno=$user;
+       break;
+     }
+   }
+
+   //agregarle los datos del nuevo usuario
+   if(!$retorno){
+   $datos[]= [
+         "email" => $_POST["email"],
+        "username" => $_POST["username"],
+        "password" => $password
+      ];
+
+      //al array final lo codifico de nuevo en json
+      $json=json_encode($datos);
+
+      //grabar los nuevos datos en el mismo archivo
+      file_put_contents($archivo, $json);
+
+    }else{
+      $mensajeError="El usuario ya existe";
+    }
 
 
+
+}
+
+ ?>
 
 <!doctype html>
 <html lang="en" class="no-js">
